@@ -1,15 +1,50 @@
 [
     {
+        "from": "Technical Support",
+        "to": ["user"],
+        "title": "Security Instructions",
+        "body": "Hello agents, please remember to logout and disconnect after using "
+    },
+
+    {
         "from": "Webster, William",
-        "to": ["mhauer", "rwinslow", "user"],
+        "to": ["mhauer", "rwinslow"],
         "title": "Tennessee Terrorist Attack",
-        "body": "4/5/1982 \nHello agents, \nPlease report to your direct superior for a briefing on the terrorist event in Nashville. \nWilliam Webster, Director of the Federal Bureau of Investigation"
+        "body": "4/5/1982 Hello agents, please report to your direct superior for a briefing on the terrorist event in Nashville."
+    },
+
+    {
+        "from": "Long, Roger",
+        "to": ["rwinslow"],
+        "title": "California missing persons cases",
+        "body": "6/13/1982 Hello Agent Winslow, we've been doing some investigations into suspected kidnappings in Southern California. We believe they are related to organized crime, but I've talked to your boss on consulting with you on other possible motivations. Please call my office when you have a moment."
+    },
+
+    {
+        "from": "Long, Roger",
+        "to": ["mhauer"],
+        "title": "Case Files",
+        "body": "6/15/1982 Greetings Maria, I've sent you a case file to consult on. There have been several missing persons cases in Southern California and I'd like your eyes on it. Let me know your thoughts. Get back to me at your leisure."
+    },
+
+    {
+        "from": "Long, Roger",
+        "to": ["mhauer"],
+        "title": "Case Files Update",
+        "body": "6/25/1982 Greetings Maria, do you have an update on those case files? I want to make sure you received them."
+    },
+
+    {
+        "from": "Long, Roger",
+        "to": ["mhauer"],
+        "title": "Case Files Update",
+        "body": "7/1/1982 Greetings Maria, asking again if you have seen the files I sent. I've tried calling. Let me know how you're doing."
     },
 
     {
         "from": "Sterling, Jack",
         "to": ["mhauer"],
         "title": "Checking In",
-        "body": "6/28/1982 \nHi Maria, \nI've been trying to call you and I know the bureau hasn't been able to reach you either. I know you're taking some time away but I wanted to check and make sure you're ok. Give me a call when you have a moment."
+        "body": "7/2/1982 Hi Maria, I've been trying to call you and I know the bureau hasn't been able to reach you either. I know you're taking some time away but I wanted to check and make sure you're ok. Give me a call when you have a moment."
     }
 ]
