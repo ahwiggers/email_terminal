@@ -3,5 +3,11 @@
         "userId": "mhauer",
         "password": "trustno1",
         "userName": "Hauder, Maria"
+    },
+
+    {
+        "userId": "rwinslow",
+        "password": "trustno1",
+        "userName": "Winslow, Raymond"
     }
 ]
