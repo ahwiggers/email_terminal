@@ -1,9 +1,9 @@
 [
     {
         "from": "Technical Support",
-        "to": ["user"],
+        "to": ["rwinslow", "mhauer"],
         "title": "Security Instructions",
-        "body": "Hello Agents, please remember to logout and disconnect after using "
+        "body": "Hello Agents, please remember to logout and disconnect after using. If you have trouble logging in call us and we can help you reset it. Be sure to make it something you can remember."
     },
 
     {
@@ -18,13 +18,6 @@
         "to": ["mhauer", "rwinslow"],
         "title": "Tennessee Terrorist Attack",
         "body": "4/5/1982 Hello Agents, please report to your direct superior for a briefing on the terrorist event in Nashville."
-    },
-
-    {
-        "from": "Long, Roger",
-        "to": ["mhauer"],
-        "title": "Case Files Update Request",
-        "body": "6/25/1982 Greetings Maria, do you have an update on those case files? I want to make sure you received them."
     },
 
     {

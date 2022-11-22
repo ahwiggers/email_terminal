@@ -37,10 +37,10 @@
     "artifact": {},
     "decrypt": {},
     "identify": {},
-    
-    "locate_tracking": {
+
+    "locate_tracker": {
         "help": "Locate tracking device",
-        "clear": true,
+        "clear": false,
         "protection" : ["mhauer"],
         "delayed": 2000,
         "message": [
@@ -66,7 +66,7 @@
         "clear": true,
         "protection" : ["mhauer"],
         "message": [
-            "WARNING: this drive comes from an uknown source. It may have contain harmful or malicious data. please type 'confirm_read' to open the file."
+            "WARNING: this drive comes from an uknown source. It may contain harmful or malicious data. please type 'confirm_read' to open the file."
         ]
     },
     "confirm_read": {
@@ -75,7 +75,7 @@
         "clear": true,
         "protection" : ["mhauer"],
         "message": [
-            "<img src=hacker.jpg class=particle data-particules=2000>"
+            "<img src=config/network/11.152.9.6/tech.jpg style='width: 10rem' class=glitch>"
         ]
     }
 }
