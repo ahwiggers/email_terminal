@@ -36,5 +36,46 @@
     },
     "artifact": {},
     "decrypt": {},
-    "identify": {}
+    "identify": {},
+    
+    "locate_tracking": {
+        "help": "Locate tracking device",
+        "clear": true,
+        "protection" : ["mhauer"],
+        "delayed": 2000,
+        "message": [
+            "<p class=desync>CONNECTING TO SERVER...</p>",
+            "<p class=desync>CONNECTION SUCCESSFUL</p>",
+            "<p class=desync>GETTING UPLINK RFID...</p>",
+            "<p class=desync>RFID FOUND</p>",
+            "<p class=desync>ESTABLISHING UPLINK...</p>",
+            "<p class=desync>SATELLITE UPLINK ESTABLISHED</p>",
+            "<p class=desync>ENCRYPTING CONNECTION...</p>",
+            "<p class=desync>CONNECTION SECURE</p>",
+            "<p class=desync>LOCATING DEVICE...</p>",
+            "<p class=desync>LOCATING...</p>",
+            "<p class=desync>LOCATING...</p>",
+            "<p class=desync>LOCATING...</p>",
+            "<p class=desync>DEVICE FOUND</p>",
+            "<p class=desync>COORDINATES: gjraglavarcbvagavarrvtugfvkavarguerr artngviravarglcbvagbarbarguerrsbhegjb</p>",
+            "<p class=desync>EXIT 0</p>"
+        ]
+    },
+    "read_drive": {
+        "help": "Read the drive currently in the computer",
+        "clear": true,
+        "protection" : ["mhauer"],
+        "message": [
+            "WARNING: this drive comes from an uknown source. It may have contain harmful or malicious data. please type 'confirm_read' to open the file."
+        ]
+    },
+    "confirm_read": {
+        "secretCommand": true,
+        "help": "Confirm read of unknown files",
+        "clear": true,
+        "protection" : ["mhauer"],
+        "message": [
+            "<img src=hacker.jpg class=particle data-particules=2000>"
+        ]
+    }
 }
