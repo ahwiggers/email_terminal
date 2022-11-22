@@ -1,5 +1,6 @@
 {
     "serverAddress": "fbi.gov",
+    "year": "1982",
     "serverName": "Federal Bureau of Investigation",
     "iconName": "fbi.png",
     "terminalID": "fbi",
