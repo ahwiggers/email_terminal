@@ -21,5 +21,22 @@
             "<p class=desync>COORDINATES: gjraglavarcbvagavarrvtugfvkavarguerr artngviravarglcbvagbarbarguerrsbhegjb</p>",
             "<p class=desync>EXIT 0</p>"
         ]
+    },
+    "read_drive": {
+        "help": "Read the drive currently in the computer",
+        "clear": true,
+        "protection" : ["mhauer"],
+        "message": [
+            "WARNING: this drive comes from an uknown source. It may have contain harmful or malicious data. please type 'confirm_read' to open the file."
+        ]
+    },
+    "confirm_read": {
+        "secretCommand": true,
+        "help": "Confirm read of unknown files",
+        "clear": true,
+        "protection" : ["mhauer"],
+        "message": [
+            "<img src=hacker.jpg class=particle data-particules=2000>"
+        ]
     }
 }
