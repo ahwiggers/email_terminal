@@ -42,11 +42,11 @@
         "help": "Locate tracking device",
         "clear": false,
         "protection" : ["mhauer"],
-        "delayed": 2000,
+        "delayed": 3000,
         "message": [
             "<p class=desync>CONNECTING TO SERVER...</p>",
             "<p class=desync>CONNECTION SUCCESSFUL</p>",
-            "<p class=desync>GETTING UPLINK RFID...</p>",
+            "<p class=desync>GETTING MBED RFID...</p>",
             "<p class=desync>RFID FOUND</p>",
             "<p class=desync>ESTABLISHING UPLINK...</p>",
             "<p class=desync>SATELLITE UPLINK ESTABLISHED</p>",
@@ -61,6 +61,23 @@
             "<p class=desync>EXIT 0</p>"
         ]
     },
+
+    "run_int_prot": {
+        "help": "Run established signal interference protocol",
+        "clear": false,
+        "protection" : ["mhauer"],
+        "delayed": 2000,
+        "message": [
+            "<p class=desync>CONNECTING TO SERVER...</p>",
+            "<p class=desync>CONNECTION SUCCESSFUL</p>",
+            "<p class=desync>GETTING SATELLITE CONNECTION PERMISSIONS...</p>",
+            "<p class=desync>PERMISSIONS GRANTED</p>",
+            "<p class=desync>SENDING PROTOCOLS...</p>",
+            "<p class=desync>PROTOCOLS SENT</p>",
+            "<p class=glow style='font-size: 3em'>⚠ ERROR: BAD SATELLITE CALIBRATION ⚠</p>"
+        ]
+    },
+
     "read_drive": {
         "help": "Read the drive currently in the computer",
         "clear": true,
@@ -69,6 +86,7 @@
             "WARNING: this drive comes from an uknown source. It may contain harmful or malicious data. please type 'confirm_read' to open the file."
         ]
     },
+
     "confirm_read": {
         "secretCommand": true,
         "help": "Confirm read of unknown files",
